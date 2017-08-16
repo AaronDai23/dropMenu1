@@ -15,6 +15,14 @@
 		04546E1B1F43F6A300707141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04546E191F43F6A300707141 /* LaunchScreen.storyboard */; };
 		04546E261F43F6A300707141 /* dropMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E251F43F6A300707141 /* dropMenuTests.m */; };
 		04546E311F43F6A300707141 /* dropMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E301F43F6A300707141 /* dropMenuUITests.m */; };
+		04546E421F43F72400707141 /* MyDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E411F43F72400707141 /* MyDropMenu.m */; };
+		04546E451F43F78300707141 /* DropMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E441F43F78300707141 /* DropMenuButton.m */; };
+		04546E4D1F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E4A1F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		04546E4E1F43F85300707141 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E4C1F43F85300707141 /* UIView+SDAutoLayout.m */; };
+		04546E531F43F8C100707141 /* service_icon_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 04546E501F43F8C100707141 /* service_icon_open.png */; };
+		04546E541F43F8C100707141 /* service_icon_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04546E511F43F8C100707141 /* service_icon_open@2x.png */; };
+		04546E551F43F8C100707141 /* service_icon_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04546E521F43F8C100707141 /* service_icon_open@3x.png */; };
+		04546E581F43FA4B00707141 /* SelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546E571F43FA4B00707141 /* SelectTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		04546E2C1F43F6A300707141 /* dropMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04546E301F43F6A300707141 /* dropMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dropMenuUITests.m; sourceTree = "<group>"; };
 		04546E321F43F6A300707141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04546E401F43F72400707141 /* MyDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDropMenu.h; sourceTree = "<group>"; };
+		04546E411F43F72400707141 /* MyDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDropMenu.m; sourceTree = "<group>"; };
+		04546E431F43F78300707141 /* DropMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropMenuButton.h; sourceTree = "<group>"; };
+		04546E441F43F78300707141 /* DropMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropMenuButton.m; sourceTree = "<group>"; };
+		04546E481F43F85300707141 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		04546E491F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		04546E4A1F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		04546E4B1F43F85300707141 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		04546E4C1F43F85300707141 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		04546E501F43F8C100707141 /* service_icon_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = service_icon_open.png; sourceTree = "<group>"; };
+		04546E511F43F8C100707141 /* service_icon_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_icon_open@2x.png"; sourceTree = "<group>"; };
+		04546E521F43F8C100707141 /* service_icon_open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "service_icon_open@3x.png"; sourceTree = "<group>"; };
+		04546E561F43FA4B00707141 /* SelectTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableView.h; sourceTree = "<group>"; };
+		04546E571F43FA4B00707141 /* SelectTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableView.m; sourceTree = "<group>"; };
+		04546E5F1F44131900707141 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,10 @@
 		04546E0A1F43F6A200707141 /* dropMenu */ = {
 			isa = PBXGroup;
 			children = (
+				04546E591F43FC9500707141 /* view */,
+				04546E4F1F43F8B000707141 /* images */,
+				04546E461F43F82500707141 /* lib */,
+				04546E3F1F43F6F800707141 /* dropMenu */,
 				04546E0E1F43F6A200707141 /* AppDelegate.h */,
 				04546E0F1F43F6A200707141 /* AppDelegate.m */,
 				04546E111F43F6A200707141 /* ViewController.h */,
@@ -109,6 +136,7 @@
 				04546E171F43F6A300707141 /* Assets.xcassets */,
 				04546E191F43F6A300707141 /* LaunchScreen.storyboard */,
 				04546E1C1F43F6A300707141 /* Info.plist */,
+				04546E5F1F44131900707141 /* PrefixHeader.pch */,
 				04546E0B1F43F6A200707141 /* Supporting Files */,
 			);
 			path = dropMenu;
@@ -138,6 +166,56 @@
 				04546E321F43F6A300707141 /* Info.plist */,
 			);
 			path = dropMenuUITests;
+			sourceTree = "<group>";
+		};
+		04546E3F1F43F6F800707141 /* dropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				04546E561F43FA4B00707141 /* SelectTableView.h */,
+				04546E571F43FA4B00707141 /* SelectTableView.m */,
+				04546E401F43F72400707141 /* MyDropMenu.h */,
+				04546E411F43F72400707141 /* MyDropMenu.m */,
+				04546E431F43F78300707141 /* DropMenuButton.h */,
+				04546E441F43F78300707141 /* DropMenuButton.m */,
+			);
+			path = dropMenu;
+			sourceTree = "<group>";
+		};
+		04546E461F43F82500707141 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				04546E471F43F85300707141 /* SDAutoLayout */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		04546E471F43F85300707141 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04546E481F43F85300707141 /* SDAutoLayout.h */,
+				04546E491F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.h */,
+				04546E4A1F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.m */,
+				04546E4B1F43F85300707141 /* UIView+SDAutoLayout.h */,
+				04546E4C1F43F85300707141 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		04546E4F1F43F8B000707141 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04546E501F43F8C100707141 /* service_icon_open.png */,
+				04546E511F43F8C100707141 /* service_icon_open@2x.png */,
+				04546E521F43F8C100707141 /* service_icon_open@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		04546E591F43FC9500707141 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +325,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04546E541F43F8C100707141 /* service_icon_open@2x.png in Resources */,
 				04546E1B1F43F6A300707141 /* LaunchScreen.storyboard in Resources */,
 				04546E181F43F6A300707141 /* Assets.xcassets in Resources */,
+				04546E531F43F8C100707141 /* service_icon_open.png in Resources */,
+				04546E551F43F8C100707141 /* service_icon_open@3x.png in Resources */,
 				04546E161F43F6A300707141 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04546E451F43F78300707141 /* DropMenuButton.m in Sources */,
+				04546E4E1F43F85300707141 /* UIView+SDAutoLayout.m in Sources */,
 				04546E131F43F6A200707141 /* ViewController.m in Sources */,
 				04546E101F43F6A200707141 /* AppDelegate.m in Sources */,
 				04546E0D1F43F6A200707141 /* main.m in Sources */,
+				04546E4D1F43F85300707141 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				04546E421F43F72400707141 /* MyDropMenu.m in Sources */,
+				04546E581F43FA4B00707141 /* SelectTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +514,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 384V675235;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dropMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = dropMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.dropMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +528,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 384V675235;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dropMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = dropMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ss.dropMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
